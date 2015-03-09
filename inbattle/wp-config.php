@@ -22,7 +22,7 @@ define('DB_NAME', 'inbattle');
 define('DB_USER', 'inbattle');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'inbattle');
+define('DB_PASSWORD', 'basketballfreestyle');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

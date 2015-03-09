@@ -1,0 +1,16 @@
+<div id="footer">
+<p class="quiet">
+		<?php esc_html_e('Powered by', 'gpp'); ?> <a href="http://wordpress.org/"><?php esc_html_e('Wordpress', 'gpp'); ?></a> <?php esc_html_e('using the', 'gpp'); ?> <a href="http://graphpaperpress.com">F8 Lite Theme</a><br /><a href="<?php bloginfo('rss2_url'); ?>" class="feed"><?php esc_html_e('subscribe to posts', 'gpp'); ?></a> <?php esc_html_e('or', 'gpp'); ?> <a href="<?php bloginfo('comments_rss2_url'); ?>" class="feed"><?php esc_html_e('subscribe to comments', 'gpp'); ?></a><br /><?php esc_html_e('All content', 'gpp'); ?> &copy; <?php echo date("Y"); ?> <?php esc_html_e('by', 'gpp'); ?> <?php bloginfo('name'); ?><br /><?php wp_loginout(); ?>
+		<!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
+	</p>
+</div>
+</div>
+</div>
+	<?php wp_footer(); ?>
+
+<div id=¡±full¡± style=¡±width:50px; height:95px; position:fixed; left:50%; top:425px; margin-left:493px;  z-index:100; text-align:center; cursor:pointer;¡±> <a><img src=¡±http://inbattle.gotoip1.com/wp-content/uploads/2014/08/cropped-518635234.jpg¡± border=0 alt=¡±·µ»Ø¶¥²¿¡±></a> </div>
+<script type=¡±text/javascript¡±>var isie6 = window.XMLHttpRequest ? false : true; function newtoponload() { var c = document.getElementById(¡°full¡±); function b() { var a = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop; if (a > 0) { if (isie6) { c.style.display = ¡°none¡±; clearTimeout(window.show); window.show = setTimeout(function () { var d = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop; if (d > 0) { c.style.display = ¡°block¡±; c.style.top = (400 + d) + ¡°px¡± } }, 300) } else { c.style.display = ¡°block¡± } } else { c.style.display = ¡°none¡± } } if (isie6) { c.style.position = ¡°absolute¡± } window.onscroll = b; b() } if (window.attachEvent) { window.attachEvent(¡°onload¡±, newtoponload) } else { window.addEventListener(¡°load¡±, newtoponload, false) } document.getElementById(¡°full¡±).onclick = function () { window.scrollTo(0, 0) };</script>
+
+
+</body>
+</html>
